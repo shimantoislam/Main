@@ -1,0 +1,71 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+    width: 100%;
+
+    height: 100vh;
+
+    background-color: #0f0f0f;
+
+    color: #fff;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+a {
+
+  text-decoration: none;
+
+  -webkit-tap-highlight-color: transparent;
+
+}
+
+h1, a {
+
+    width: 40%;
+
+    font-size: 20px;
+
+    color: transparent;
+
+    text-align: center;
+
+    -webkit-text-stroke: 1px #fff;
+
+    background: url(background.png);
+
+    background-position: 0 0;
+
+    background-clip: text;
+
+    -webkit-background-clip: text;
+
+    animation: animation 20s linear infinite;
+
+}
+
+@keyframes animation {
+
+    100% {
+
+        background-position: 2000px 0;
+
+    }
+
+}
